@@ -2445,7 +2445,7 @@ body {
   top: 0;
   width: 100%;
   z-index: 10001; }
-  #header > .logo {
+  #header  {
     color: #ffffff;
     font-size: 1rem;
     font-weight: 600;
@@ -2482,10 +2482,6 @@ body {
     @media screen and (max-width: 736px) {
          /* CUSTOM CSS */
 
-      .ibe-logo{
-        width: 50px;
-        height: 20px;
-                 }
       #header > nav > a {
         padding: 0 0.5rem; }
         #header > nav > a + a[href="#menu"]:last-child {
@@ -2834,7 +2830,7 @@ body {
         background-color: #111111;
       }
       .ibe-logo{
-      width: 50px;
+      width: 500px;
       height: 25px;
               }
       #menu .close {
@@ -2842,13 +2838,7 @@ body {
         line-height: 4rem; } }
   @media screen and (max-width: 736px) {
     /* CUSTOM CSS */
-    body{
-      background-color: #111111;
-    }
-    .ibe-logo{
-    width: 50px;
-    height: 25px;
-            }
+   
     #menu {
       padding: 2.5rem 1.75rem; } }
 
@@ -2867,6 +2857,6 @@ body.is-menu-visible #menu {
 
 
 .ibe-logo{
- width: 50px;
- height: 55px;
+ width: 70px;
+ height: 60px;
 }
